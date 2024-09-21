@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medical Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Medical Form</h1>
+    <form id="medicalForm">
+      <input id="patientName" type="text" placeholder="Patient Name" />
+      <input id="age" type="number" placeholder="Age" required />
+      <input id="fatherName" type="text" placeholder="Father's Name" required />
+      <input id="motherName" type="text" placeholder="Mother's Name" required />
+      <input id="address" type="text" placeholder="Address" required />
+      <input
+        id="phoneNumber"
+        type="number"
+        placeholder="Phone Number"
+        required
+      />
+      <input id="description" type="text" placeholder="Description" required />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="result"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
